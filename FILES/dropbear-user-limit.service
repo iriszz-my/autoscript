@@ -1,0 +1,9 @@
+[Unit]
+Description=Limit Dropbear user login
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/dropbear-user-limit
+
+[Install]
+WantedBy=multi-user.target
