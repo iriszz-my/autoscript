@@ -153,7 +153,7 @@ case "${MENU_OPTION}" in
 		exit
 		;;
 	8)
-		script-info
+		info-script
 		exit
 		;;
 	9)
